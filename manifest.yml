@@ -1,0 +1,10 @@
+---
+applications:
+- name: nodejsapp
+  command: npm run serve
+  memory: 400M
+  path: btpnodejs
+  buildpacks: 
+    - nodejs_buildpack
+  routes: 
+      - route: 91ccc175trial-nodejsapp.cfapps.ap21.hana.ondemand.com 

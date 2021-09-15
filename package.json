@@ -1,0 +1,11 @@
+{
+    "name": "nodejsdemo",
+    "version": "1.0.0",
+    "description": "nodejs demo for BTP",
+    "scripts": {
+        "deploy": "cf push",
+        "undeploy": "cf delete nodejsapp"
+    },
+    "author": "cai.chen",
+    "license": "ISC"
+}
