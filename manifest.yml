@@ -7,4 +7,7 @@ applications:
   buildpacks: 
     - nodejs_buildpack
   routes: 
-      - route: 91ccc175trial-nodejsapp.cfapps.ap21.hana.ondemand.com 
+      - route: 91ccc175trial-nodejsapp.cfapps.us10.hana.ondemand.com
+  env:
+     NODE_ENV: development
+     NPM_CONFIG_PRODUCTION: false
